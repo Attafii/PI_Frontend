@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  overflow: auto;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(to left, rgba(26, 45, 66, 1) 30%, rgba(0, 0, 0, 0) 70%), 
+                    url("../imagesISET/login.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style compact pour les formulaires */
+.login-form-container {
+  width: 350px; /* Réduit la largeur */
+  padding: 15px; /* Réduit le padding */
+  background-color: rgba(255, 255, 255, 0.9); /* Ajoute une légère transparence */
+  border-radius: 8px; /* Coins légèrement arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Réduit l'intensité de l'ombre */
+  margin: 0 auto; /* Centre horizontalement */
+}
+
+.login-form-box {
+  width: 100%;
+}
+
+.login-form-box h3 {
+  margin-bottom: 8px; /* Réduit l'espacement sous le titre */
+  font-size: 20px; /* Réduit la taille de la police */
+  color: #333;
+  text-align: center; /* Centre le texte */
+}
+
+h3 {
+  text-align: center;
+}
+
+#forgot {
+  text-align: right;
+}
+
+/* Champ oublié le mot de passe */
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-bottom: 8px; /* Réduit l'espacement */
+  color: #007bff;
+  font-size: 12px; /* Réduit la taille de la police */
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Pied de page inscription */
+.signup-footer {
+  margin-top: 10px; /* Réduit l'espacement */
+  text-align: center;
+  font-size: 12px; /* Réduit la taille de la police */
+}
+
+.signup-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Style responsive */
+@media (max-width: 768px) {
+  .login-page {
+    background-image: none;
+    background-color: #ffffff;
+  }
+
+  .login-form-container {
+    width: 90%;
+    padding: 12px;
+    background-color: #f8f8f8;
+    box-shadow: none;
+  }
+
+  .login-form-box h3 {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .forgot-password {
+    font-size: 10px;
+    color: #007bff;
+  }
+
+  .signup-footer a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .login-form-box h3 {
+    font-size: 14px;
+  }
+
+  .forgot-password {
+    font-size: 9px;
+  }
+
+  .signup-footer a {
+    font-size: 9px;
+  }
+}

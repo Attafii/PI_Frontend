@@ -1,0 +1,62 @@
+/* src/pages/Navbar.css */
+
+.ant-menu-horizontal {
+    border-bottom: none; /* Supprimer la bordure sous la navbar */
+  }
+  
+  .ant-menu-horizontal .ant-menu-item {
+    font-size: 16px; /* Taille de police par défaut pour la navbar */
+  }
+  
+  /* Quand l'écran est plus petit que 768px */
+  @media (max-width: 768px) {
+    .ant-menu-horizontal {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .ant-menu-item {
+      font-size: 14px; /* Réduire la taille de la police sur les petits écrans */
+    }
+  
+    /* Adapter la taille des boutons et avatars */
+    .ant-btn {
+      font-size: 12px; /* Réduire la taille des boutons */
+    }
+  
+    .ant-avatar {
+      width: 30px; /* Réduire la taille de l'avatar */
+      height: 30px;
+    }
+  
+    .ant-menu-horizontal .ant-menu-item {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .ant-menu-horizontal .ant-menu-item-selected {
+      background-color: #1890ff; /* Ajouter un style pour l'élément sélectionné */
+    }
+  }
+  
+  /* Quand l'écran est plus petit que 480px */
+  @media (max-width: 480px) {
+    .ant-menu-horizontal {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  
+    .ant-menu-item {
+      font-size: 12px; /* Encore plus petit sur des écrans très petits */
+    }
+  
+    .ant-btn {
+      font-size: 10px; /* Boutons encore plus petits */
+    }
+  
+    .ant-avatar {
+      width: 25px; /* Avatar encore plus petit */
+      height: 25px;
+    }
+  }
+  

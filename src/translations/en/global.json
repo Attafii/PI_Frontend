@@ -1,0 +1,88 @@
+{
+  "HeaderComponent":{
+                    "login":"My account",
+                    "register":"Sign up",
+                    "logout":"Logout"
+                    },
+  "FooterComponent":{
+                      "message": "2025 Gamgam Amine. All rights reserved."
+                   },
+  "LoginPage":     {
+                    "titreForm": "Login to your account",
+                    "adressEmail": "Email address",
+                    "adressEmailPlaceholder": "Enter your email address",
+                    "EmailErrorMessage": "Please enter a valid email!",
+                    "PasswordErrorMessage": "Please enter your password!",
+                    "Password": "Password",
+                    "ForgotPassword": "Forgot password?",
+                    "SeConnecterBtn": "Login",
+                    "PasCompte": "Don't have an account?",
+                    "InscrivezVous": "Sign up",
+                    "classForgotPassword":".forgot-password"
+                    },
+  "RegisterPage": {
+                    "titreForm": "Create an Account",
+                    "firstName": "First Name",
+                    "firstNamePlaceholder": "Enter your first name",
+                    "firstNameError": "Please enter your first name!",
+                    "lastName": "Last Name",
+                    "lastNamePlaceholder": "Enter your last name",
+                    "lastNameError": "Please enter your last name!",
+                    "email": "Email Address",
+                    "emailPlaceholder": "Enter your email address",
+                    "emailError": "Please enter an email address!",
+                    "emailInvalid": "Please enter a valid email address!",
+                    "password": "Password",
+                    "passwordPlaceholder": "Enter a password",
+                    "passwordError": "Please enter a password!",
+                    "confirmPassword": "Confirm Password",
+                    "confirmPasswordPlaceholder": "Confirm your password",
+                    "confirmPasswordError": "Please confirm your password!",
+                    "passwordMismatch": "Passwords do not match!",
+                    "registerButton": "Sign Up",
+                    "alreadyHaveAccount": "Already have an account?",
+                    "loginLink": "Log in"
+                  },
+  "ForgetPwdPage": {
+                    "titreForm": "Reset Your Password",
+                    "description": "Please enter your email address to receive a reset link.",
+                    "emailLabel": "Email Address",
+                    "emailPlaceholder": "Enter your email address",
+                    "emailError": "Please enter your email address.",
+                    "emailInvalid": "Please enter a valid email address.",
+                    "submitButton": "Submit",
+                    "backToLogin": "Back to Login"
+                  },
+ "Navbar": {
+    "Home": "Home",
+    "Trainings": "Trainings",
+    "Candidates": "Candidates",
+    "Trainers": "Trainers",
+    "Logout": "Logout",
+    "Login": "Login",
+    "Register": "Register",
+    "English": "English",
+    "French": "French",
+    "Arabic": "Arabic"
+  },
+
+  
+  "HomeComponent": {
+    "welcomeTitle": "Bienvenue sur Freelancers Workspace",
+    "welcomeParagraph": "Freelancers Workspace vous offre un espace complet pour développer vos compétences, collaborer sur des projets et booster votre carrière de freelance.",
+    "discoverButton": "Découvrir nos services",
+    "servicesTitle": "Découvrez nos services",
+    "servicesParagraph": "Chez Freelancers Workspace, nous proposons des services variés pour les freelances : formations, outils collaboratifs, conseils en gestion de projets et opportunités de networking.",
+    "categoriesTitle": "Nos catégories de services",
+    "categoryInformatique": "Développement & Informatique",
+    "categoryTexts": "Rédaction & Traduction ",
+    "categoryDesign": "Design & Créativité",
+    "categoryGestion": "Marketing & Stratégie"
+}
+
+  }
+  
+  
+  
+  
+

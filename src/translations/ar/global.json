@@ -1,0 +1,87 @@
+{ 
+    "HeaderComponent":{ 
+        "login":"حسابي",
+        "register":"إنشاء حساب",  
+        "logout": "تسجيل الخروج "
+    },
+    "FooterComponent":{
+        "message":" 2024 أمين قمقم. جميع الحقوق محفوظة"
+      }, 
+    "LoginPage": {
+        "titreForm": "تسجيل الدخول إلى حسابك",
+        "adressEmail": "البريد الإلكتروني",
+        "adressEmailPlaceholder": "أدخل عنوان بريدك الإلكتروني",
+        "EmailErrorMessage": "يرجى إدخال بريد إلكتروني صالح!",
+        "PasswordErrorMessage": "يرجى إدخال كلمة المرور الخاصة بك!",
+        "Password": "كلمة المرور",
+        "ForgotPassword": "هل نسيت كلمة المرور؟",
+        "SeConnecterBtn": "تسجيل الدخول",
+        "PasCompte": "ليس لديك حساب؟",
+        "InscrivezVous": "سجل الآن",
+        "classForgotPassword":".forgot-passwordAr"
+    },
+    
+        "RegisterPage": {
+          "titreForm": "إنشاء حساب",
+          "firstName": "الاسم الأول",
+          "firstNamePlaceholder": "أدخل اسمك الأول",
+          "firstNameError": "يرجى إدخال الاسم الأول!",
+          "lastName": "اسم العائلة",
+          "lastNamePlaceholder": "أدخل اسم عائلتك",
+          "lastNameError": "يرجى إدخال اسم العائلة!",
+          "email": "البريد الإلكتروني",
+          "emailPlaceholder": "أدخل بريدك الإلكتروني",
+          "emailError": "يرجى إدخال البريد الإلكتروني!",
+          "emailInvalid": "يرجى إدخال بريد إلكتروني صالح!",
+          "password": "كلمة المرور",
+          "passwordPlaceholder": "أدخل كلمة المرور",
+          "passwordError": "يرجى إدخال كلمة المرور!",
+          "confirmPassword": "تأكيد كلمة المرور",
+          "confirmPasswordPlaceholder": "أكد كلمة المرور",
+          "confirmPasswordError": "يرجى تأكيد كلمة المرور!",
+          "passwordMismatch": "كلمات المرور غير متطابقة!",
+          "registerButton": "تسجيل",
+          "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+          "loginLink": "تسجيل الدخول"
+        },
+        "ForgetPwdPage": {
+  "titreForm": "إعادة تعيين كلمة المرور",
+  "description": "يرجى إدخال بريدك الإلكتروني لتلقي رابط إعادة التعيين.",
+  "emailLabel": "البريد الإلكتروني",
+  "emailPlaceholder": "أدخل بريدك الإلكتروني",
+  "emailError": "يرجى إدخال بريدك الإلكتروني.",
+  "emailInvalid": "يرجى إدخال بريد إلكتروني صالح.",
+  "submitButton": "إرسال",
+  "backToLogin": "العودة إلى تسجيل الدخول"
+},
+"Navbar": {
+    "Home": "الرئيسية",
+    "Trainings": "الدورات",
+    "Candidates": "المرشحون",
+    "Trainers": "المدربون",
+    "Logout": "تسجيل الخروج",
+    "Login": "تسجيل الدخول",
+    "Register": "التسجيل",
+    "English": "الإنجليزية",
+    "French": "الفرنسية",
+    "Arabic": "العربية"
+  },
+  
+    "HomeComponent": {
+    "welcomeTitle": "مرحبًا بكم في معهد رادس",
+    "welcomeParagraph": "يقدم معهد رادس تدريبات عالية الجودة لإعدادك لمسيرة مهنية مشرقة في مختلف المجالات.",
+    "discoverButton": "اكتشف برامجنا",
+    "servicesTitle": "اكتشف خدماتنا",
+    "servicesParagraph": "في معهد رادس، نقدم تدريبات في مجالات متعددة مثل علوم الكمبيوتر، الإدارة، الإلكترونيات، والميكانيكا.",
+    "categoriesTitle": "فئات التدريبات لدينا",
+    "categoryInformatique": "علوم الكمبيوتر",
+    "categoryGestion": "الإدارة",
+    "categoryElectronique": "الإلكترونيات",
+    "categoryMecanique": "الميكانيكا"
+  }
+  }
+  
+
+
+      
+      

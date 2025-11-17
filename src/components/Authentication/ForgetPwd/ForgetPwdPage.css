@@ -1,0 +1,144 @@
+/* src/pages/ForgetPwdPage.css */
+
+/* Utilisation des styles similaires à LoginPage */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    overflow: auto;
+  }
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(to left, rgba(26, 45, 66, 1) 30%, rgba(0, 0, 0, 0) 70%),
+                    url("../imagesISET/cover2.jpg");
+  background-size: contain; /* 👈 affiche toute l’image sans zoom */
+  background-position: center center; /* 👈 centre horizontalement et verticalement */
+  background-repeat: no-repeat;
+  background-color: #0f172a; /* 👈 couleur de fond pour combler les bandes vides */
+  justify-content: center;
+  align-items: center;
+}
+  
+  /* Lorsque l'écran devient plus petit, on modifie l'apparence */
+  @media (max-width: 768px) {
+    .login-page {
+      background-image: none; /* Supprimer l'image de fond */
+      background-color: #ffffff; /* Changer le fond de la page */
+    }
+  
+    .login-form-container {
+      width: 90%; /* Le formulaire prend 90% de la largeur */
+      padding: 20px;
+      background-color: #f0f0f0; /* Changer le fond de la boîte de formulaire */
+      box-shadow: none; /* Supprimer l'ombre */
+      margin: 20px auto; /* Centrer le formulaire */
+    }
+  
+    .login-form-box h3 {
+      font-size: 6vw; /* Redimensionner le texte du titre */
+      color: #333;
+    }
+  
+    .forgot-password,
+    .forgot-passwordAr {
+      font-size: 3.5vw; /* Réduire la taille de la police */
+      color: #007bff;
+    }
+  
+    .signup-footer a {
+      font-size: 3.5vw; /* Adapter la taille du lien */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-form-container {
+      width: 95%; /* Formulaire presque à pleine largeur sur les petits écrans */
+      padding: 15px;
+    }
+  
+    .login-form-box h3 {
+      font-size: 8vw; /* Taille encore plus petite pour le titre */
+    }
+  
+    .forgot-password,
+    .forgot-passwordAr {
+      font-size: 4vw; /* Réduire encore la taille du texte pour les petits écrans */
+    }
+  
+    .signup-footer a {
+      font-size: 4vw; /* Réduire encore la taille du lien */
+    }
+  }
+  
+  .login-form-container {
+    width: 400px; /* Largeur fixe de la boîte */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1); /* Fond blanc semi-transparent */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    margin: auto 80px auto auto; /* Alignement à droite */
+  }
+  
+  .login-form-box {
+    width: 100%;
+  }
+  
+  .login-form-box h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  #forgot {
+    text-align: right;
+  }
+  
+  .forgot-password {
+    display: block;
+    text-align: right; /* Texte aligné à gauche */
+    margin-bottom: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-passwordAr {
+    display: block;
+    text-align: right; /* Texte aligné à droite */
+    margin-bottom: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-footer {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .signup-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-footer a:hover {
+    text-decoration: underline;
+  }
+  .back-to-login {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+              /* Si vous voulez que le lien soit centré par rapport à toute la hauteur de la page */
+  }
+  

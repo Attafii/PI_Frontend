@@ -1,0 +1,20 @@
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .navbar .ant-row {
+    display: none;
+  }
+  .navbar .ant-drawer-content-wrapper {
+    display: block;
+  }
+}
+/* NavbarComponent.css */
+
+/* Supprimez ou modifiez la couleur de fond pour l'élément sélectionné */
+.ant-dropdown-menu-item-active {
+  background-color: transparent !important; /* Remplace le bleu par un fond transparent */
+  color: white; /* Gardez le texte en blanc */
+}
+
