@@ -69,7 +69,7 @@ const LoginPage = () => {
 
       const { role } = response.data.user;
       if (role === "formateur") navigate("/formateur");
-      else if (role === "candidat") navigate("/dashboard-freelancer");
+      else if (role === "candidat") navigate("/dashboard-freelance");
       else navigate("/dashboard-client");
     } catch (error) {
       setErrorAlert(true);
