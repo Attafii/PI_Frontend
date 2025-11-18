@@ -224,10 +224,10 @@ export default function DashboardFreelance() {
   const fetchMesCandidatures = async () => {
     try {
 
-        const id = localStorage.getItem("id");
-        const { freelanceId } = id ;
+        const id = localStorage.getItem("userId");
+        const freelanceId = id ;
         
-        console.log("ID = " , id )
+        
       
 
       const res = await fetch(
