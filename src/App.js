@@ -17,7 +17,8 @@ import ReadCategoryComponent from './components/EspaceAdmin/crudCategorie/ReadCa
 import BienvenueDocument from './components/EspaceAdmin/BienvenuDocument';
 import HomeCandidatComponent from './components/EspaceCandidat/HomeCandidatComponent';
 import HomeFormateurComponent from './components/EspaceFormateur/HomeFormateurComponent';
-
+import DashboardClient from './components/Dashboards/DashboardClient';
+import DashboardFreelance from './components/Dashboards/DashboardFreelance';
 function AppLayout() {
   const location = useLocation();
 
@@ -53,6 +54,8 @@ function AppLayout() {
           <Route path="/accueil/:id" element={<FormationsComponent />} />
           <Route path="/gestionCategories" element={<ReadCategoryComponent />} />
           <Route path="/formations/:id" element={<FormationDetailComponent />} />
+          <Route path="/dashboard-client" element={<DashboardClient />} />
+          <Route path="/dashboard-freelance" element={<DashboardFreelance />} />
           {/* Ajoutez une route pour admin-workspace si nécessaire */}
           {/* <Route path="/admin-workspace" element={<div>Admin Workspace</div>} /> */}
         </Routes>

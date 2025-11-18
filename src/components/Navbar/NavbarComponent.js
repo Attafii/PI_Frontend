@@ -62,7 +62,7 @@ const NavbarComponent = () => {
         {
           key: "form",
           icon: <ReadOutlined />,
-          label: <a href="/formations">{t("Formations")}</a>,
+          label: <a href="/dashboard-freelance">{t("Mon Espace")}</a>,
         },
         {
           key: "language",
@@ -120,7 +120,7 @@ const NavbarComponent = () => {
           icon: <UserAddOutlined />,
           label: <a href="/signin?role=candidat">{t("Espace Client")}</a>,
         },
-        
+
         {
           key: "login",
           icon: <LoginOutlined />,
